@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
 import logo from "../assets/logo.png";
-import MobileNav from "./mobileNav";
 import { HiMenu } from "react-icons/hi";
 import { HiX } from "react-icons/hi";
-import { div, pre } from "framer-motion/client";
 
 const links = [
   {
