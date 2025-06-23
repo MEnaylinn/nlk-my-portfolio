@@ -2,6 +2,7 @@ import React from "react";
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/profile.png";
 import { motion } from "framer-motion";
+import ReactTypingEffect from "react-typing-effect";
 
 const container = (delay)=>({
   hidden :{ x: -100, opacity: 0},
@@ -23,8 +24,11 @@ const Hero = () => {
             initial="hidden"
             animate="visible"
             className="pb-6 flex text-6xl font-thin tracking-tight lg:mt-16 lg:text-6xl"
-            >
-              Nay Lin Kyaw
+            > 
+            <ReactTypingEffect text={['Nay Lin Kyaw']}>
+              
+            </ReactTypingEffect>
+
             </motion.h1>
             <motion.span
              variants={container(0.5)}
