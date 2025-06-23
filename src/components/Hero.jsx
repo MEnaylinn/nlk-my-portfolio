@@ -24,10 +24,7 @@ const Hero = () => {
             initial="hidden"
             animate="visible"
             className="pb-6 flex text-6xl font-thin tracking-tight lg:mt-16 lg:text-6xl"
-            > 
-            <ReactTypingEffect text={['Nay Lin Kyaw']}>
-              
-            </ReactTypingEffect>
+            > Nay Lin Kyaw
 
             </motion.h1>
             <motion.span
