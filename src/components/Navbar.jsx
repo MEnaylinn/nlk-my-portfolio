@@ -62,9 +62,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="mb-6 flex items-center justify-between py-4">
-      <div className="flex flex-shrink-0 items-center">
-        <img src={logo} alt="logo" className="w-25 h-20 rounded-2xl" />
+    <nav className="flex items-center justify-between py-0">
+      <div className="flex flex-shrink-0 items-center py-6">
+        <img src={logo} alt="logo" className="w-20 h-10 rounded-2xl" />
       </div>
 
       {/* android */}

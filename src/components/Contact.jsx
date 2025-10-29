@@ -11,7 +11,7 @@ const Contact = () => {
         transition={{ duration: 1 }}
         className="my-8 text-4xl text-center"
       >
-        Get In Touch
+        Contact
       </motion.h1>
       <div className="text-center tracking-tight">
         <motion.p
@@ -30,10 +30,25 @@ const Contact = () => {
         >
           {CONTACT.phoneNo}
         </motion.h1>
-        <a href="#" className="border-b">
+        <motion.p
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: -100 }}
+          transition={{ duration: 1 }}
+          className="my-4"
+          href="#"
+        >
           {CONTACT.email}
-        </a>
+        </motion.p>
+        <motion.div
+        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, x: 100 }}
+        transition={{ duration: 1 }}
+        className="my-4"
+      >
+        Copyright@ 2025 NLK. All right reserved.
+      </motion.div>
       </div>
+      
     </div>
   );
 };
